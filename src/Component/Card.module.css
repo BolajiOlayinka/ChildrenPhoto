@@ -20,5 +20,9 @@
     
 
 };
-
+@media(max-width:425px){
+  #myWidth{
+    width:23em;
+  }
+}
  

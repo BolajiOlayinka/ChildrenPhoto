@@ -50,3 +50,16 @@ font-weight:bold;
         padding: 0.5rem 1rem;
 }
 }
+@media(max-width:992px){
+    #navLink{
+    padding: 0.5em 0.5em;
+    margin-left:3em;
+    color:#3f3d56;
+    }
+    #log{
+        display:none;
+    }
+    #sign{
+        display:none;
+    }
+}

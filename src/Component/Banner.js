@@ -12,7 +12,7 @@ export default function Banner() {
            <div className={style.bannerText}>
                <h2> You Create the Memory, We Capture Them</h2>
                <h4>Build up a  wardrobe of Memories for you children, We are happy to help</h4>
-               <Link to="/"><Button id={style.gallery}>View Gallery</Button></Link>
+               <Link to="/gallery"><Button id={style.gallery}>View Gallery</Button></Link>
            </div>
         </div>
         </React.Fragment>

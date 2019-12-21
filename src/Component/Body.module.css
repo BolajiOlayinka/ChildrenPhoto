@@ -44,3 +44,18 @@ margin:2em 0em;
 .signup{
     width:100%;
 }
+@media(max-width:991px){
+    .capt{
+        width:100%;
+    }
+    .captRight{
+        margin-top:0.6em;
+        font-size:0.8em;
+    }
+    .caption{
+        font-size:1.4em;
+    }
+    .area{
+        padding:0em 1.5em;
+    }
+}

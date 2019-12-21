@@ -4,6 +4,7 @@ import download from "../images/download.png";
 import { ImageConsumer } from "../Context";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+// import styles from '../Component/Card.module.css';
 
 export default class Card extends Component {
   render() {
@@ -16,7 +17,7 @@ export default class Card extends Component {
               <LogoContainer onClick={() => value.handleDetail(id)}>
                 {this.props.key}
                 <Link to="./details">
-                  <ImageContent src={thumbnail} alt="child" />
+                  <ImageContent src={thumbnail} alt="child"  />
                 </Link>
                 <Button>
                   {" "}
@@ -86,10 +87,13 @@ const ImageContent = styled.img`
   width: 21.9em;
   border-radius: 0.5em;
   height: 27em;
+ 
 `;
+
 
 const Img = styled.img`
   width: 2em;
+  
 `;
 const CardTag = styled.p`
   padding-top: 1.6em;
@@ -100,6 +104,7 @@ const CardTag = styled.p`
   text-transform: upperCase;
   text-align: center;
 `;
+
 
 // export default function Card(props) {
 //   return (

@@ -40,3 +40,39 @@
         text-align:center;
     }
 }
+@media(max-width:991px){
+.banner{
+    /* background-image: url('../images/banner-md.png'); */
+    background-size: contain;
+
+    
+    height:20em;
+}
+.bannerText h2{
+    margin-top:1.5em;
+    margin-bottom:0.8em;
+    font-size:1.5em;
+}
+.bannerText h4{
+    font-size:1.2em;
+}
+#gallery{
+margin-top:1em;
+}
+}
+@media(max-width:425px){
+    .banner{
+    background-image: url('../images/banner-sm-2.png');
+    height:19em;
+    }
+    .bannerText{
+        float:none;
+        text-align:center;
+        margin:auto;
+        width:80%;
+
+    }
+    .bannerText h4{
+        font-size:1.1em;
+    }
+}
