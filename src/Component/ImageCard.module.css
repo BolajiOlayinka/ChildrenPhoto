@@ -1,0 +1,22 @@
+.gallery{
+    text-align:center;
+}
+.gallery h2{
+    font-weight:bold;
+}
+   .logoContainer{
+       width:10em;
+       height:27em;
+       display:"flex";
+ align-items:center;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1), 0px 1px 20px rgba(0, 0, 0, 0.05);
+
+  border-radius: 0.5em;
+  text-align:center;
+  width:10em;
+   }
+   .card img{
+width:10em;
+   }
+   

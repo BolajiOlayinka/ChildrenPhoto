@@ -1,0 +1,42 @@
+.banner{
+    background-image: url('../images/Banner.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height:35em;
+}
+
+.bannerText{
+    float:right;
+    width:40%;
+    margin-right:3em;
+    color:#3f3d56;
+    text-align:center;
+}
+.bannerText h2{
+    margin-top:3.5em;
+    margin-bottom:1em;
+    text-align:center;
+    font-size:2.2em;
+}
+#gallery{
+    width:10em;
+    background-color:rgb(148, 3, 3);
+    color:white;
+    margin-top:2em;
+    border-style:none;
+    border-radius:1em;
+
+}
+@media(max-width:1024px){
+    .bannerText{
+        float:right;
+        width:40%;
+        margin-right:3em;
+        color:#3f3d56;
+    }
+    .bannerText h2{
+        margin-top:2.5em;
+        margin-bottom:1em;
+        text-align:center;
+    }
+}

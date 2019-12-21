@@ -1,0 +1,31 @@
+.footerArea{
+    background-image: url('../images/Footer.png');
+    height:30em;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top:10em;
+    color:white;
+
+}
+#title{
+font-weight:bold;
+font-size:1.5em;
+padding:1em 0em;
+
+
+}
+#title a{
+    color:white;
+    text-decoration:none;
+}
+#body a{
+color:white;
+text-decoration:none;
+
+}
+#icon{
+    margin:auto;
+}
+#icon a{
+    padding:0.3em;
+}

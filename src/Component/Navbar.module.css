@@ -1,0 +1,52 @@
+#myNavbar{
+    padding-left:2rem;
+    padding-right:2rem;
+    
+    font-weight:bold;
+   
+}
+#myHeader{
+    padding: 1rem 2rem;
+    background-color:#5984fd;
+    font-weight:bold;
+    /* background-image:url('../images/header.png'); */
+   
+}
+#navLink {
+    display: block;
+    text-align:center;
+    padding: 1rem 1rem;
+    margin-left:5em;
+    text-decoration:none;
+    color:white;
+}
+#log{
+ background-color:#5984fd;
+ color:white;
+ margin:0em 0.7em;
+ border-style:none;
+ border-radius:1.2em;
+padding:0.5em;
+width:8em;
+font-size:0.8em;
+font-weight:bold;
+
+}
+#sign{
+    background-color:#3f3d56;
+    color:white;
+    margin:0em 0.7em;
+    border-style:none;
+ border-radius:1.2em;
+padding:0.5em;
+width:8em;
+font-size:0.8em;
+font-weight:bold;
+    
+   }
+@media(max-width:1024px){
+    #navLink {
+        
+        padding: 0.5rem 1rem;
+}
+}

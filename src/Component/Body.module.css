@@ -1,0 +1,46 @@
+.body{
+    color:#3f3d56;
+}
+.area{
+    margin-top:3em;
+    margin-bottom:3em;
+}
+.caption{
+    text-align:center;
+font-weight:bold;
+margin:2em 0em;
+}
+.capture{
+    text-align: center;
+}
+.capt{
+    width:85%;
+    margin:auto;
+}
+.albulm{
+    text-align:center;
+}
+.captRight{
+    width:100%;
+    margin:auto;
+    font-size:1.2em;
+    text-align:justify;
+    margin-top:1em;
+    font-weight:bold;
+}
+.buttonArea{
+    text-align: center;
+}
+.button{
+    width:15em;
+    background-color:#5984fd;
+    margin:5em auto;
+    padding:0.6em 1em;
+    border-radius:1em;
+    color:white;
+    border-style:none;
+    border-color:transparent;
+}
+.signup{
+    width:100%;
+}
